@@ -1,8 +1,8 @@
 const loader = document.querySelector(".loader");
 const toggleButton = document.querySelector("#togglePlayState");
 
-const sentence = "Animation Play State";
-// const sentence = "CSS & JS Animation";
+// const sentence = "Animation Play State";
+const sentence = "CSS & JS Animation";
 
 function addSentenceToPage(sentence) {
 	[...sentence].forEach((char, i) => {
